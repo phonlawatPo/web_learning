@@ -1,0 +1,77 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ลงทะเบียน</title>
+</head>
+<body>
+	<form action="ShowDetail.php" method="POST">
+	<table align="center">
+	<tr>
+		<td>ชื่อ - นามสกุล</td>
+		<td>
+			
+			:<input name="fname" type="text" size="35">
+			- 
+			 <input name="lname" type="text" size="35">
+			 
+		</td>
+	</tr>
+	<tr>
+		<td>เพศ</td>
+		<td>:
+			<input id="1" name="sex" type="radio" value="ชาย"> ชาย 
+			<input id="2" name="sex" type="radio" value="หญิง"> หญิง
+			
+		</td>
+	</tr>
+	<tr>
+		<td>ที่อยู่</td>
+		<td>:
+		<textarea name="address" style="resize:none" rows="5" cols="40" ></textarea>
+		</td>
+	</tr>
+	<tr>
+		<td>เบอร์โทร</td>
+		<td>:
+			<input name="tel" type="textbox" size="20">
+		</td>
+	</tr>
+	<tr>
+		<td>อีเมล</td>
+		<td>:
+			<input name="email" type="textbox" size="40">
+		</td>
+	</tr>
+	<tr>
+		<td>User</td>
+		<td>:
+			<input name="usr" type="textbox" size="35">
+		</td>
+	</tr>
+	<tr>
+		<td>Password</td>
+		<td>:
+			<input name="pwd" type="Password" size="35" maxlength="6">
+		</td>
+	</tr>
+	<tr>
+		<td>Confirm Password</td>
+		<td>:
+			<input name="ComPwd" type="Password" size="35"  maxlength="6">
+		</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>
+			<br>
+			<a href="ShowDetail.php">
+			<input name="Registation" type="submit" value="ลงทะเบียนใช้งานระบบสั่งซื้อ">
+			</a>
+			
+		</td>
+	</tr>
+	</table>
+	</form>
+	
+</body>
+</html>
